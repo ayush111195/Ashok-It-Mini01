@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "plan-api",
+      "type": "com.ayush.props.AppProperties",
+      "sourceType": "com.ayush.props.AppProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "plan-api.messages",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.ayush.props.AppProperties"
+    }
+  ],
+  "hints": []
+}

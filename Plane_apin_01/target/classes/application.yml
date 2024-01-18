@@ -1,0 +1,32 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    name: planeapi
+    password: 12345
+    url: jdbc:mysql://localhost:3306/planeapi
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+  mvc:
+    pathmatch:
+      matching-strategy: 'ANT_PATH_MATCHER'
+      
+plan-api:
+  messages:
+    planSaveSucc: Plan saved successfully
+    planSaveFail: Plan save Failed
+    planUpdateSucc: Plan Updated successfully
+    planUpdateFail: Plan Updated Failed
+    PlanDeleteSucc: Plan Deleted successfully
+    planDeleteFail: Plan Deleted Failed
+    PlanStatusChange: plan Satus Changed successfully
+    PlanStatusChangeFail: plan Satus Changed Failed
+
+    
+  
+  
+    
